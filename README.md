@@ -1,4 +1,4 @@
-# FPS
+# Simple Shooting Game
 
 I will be creating a video game
 

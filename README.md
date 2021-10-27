@@ -8,3 +8,16 @@ I will be creating a video game
 - There will be bullet damage that changes depending on how far you are away
 - There will be a headshot damage multiplier
 - There will be a movement machanic with jumping and running around
+
+THE FILES I CREATED ARE
+- Gun.cpp
+- Gun.h
+- ShooterAIController.cpp
+- ShooterAIController.h
+- MyShooterCharacter.cpp
+- MyShooterCharacter.h
+- MyPawn.cpp
+- MyPawn.h
+
+WHAT TO PUT IN READ ME
+-A link to my ONEDRIVE SIMPLESHOOTERGAME README

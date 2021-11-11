@@ -20,6 +20,7 @@ THE FILES I CREATED ARE
 
 NEW FILES FOR MILESTONE 2
 - MyBTService_PlayerLocation.h
+- MyBTService_PlayerLocation.cpp
 - MyBTTask_Shoot.h
 - MyBTTask_Shoot.cpp
 - MyBTTask_ClearBlackBoardValue.h

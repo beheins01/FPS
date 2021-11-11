@@ -17,6 +17,12 @@ THE FILES I CREATED ARE
 - MyShooterCharacter.h
 - MyPawn.cpp
 - MyPawn.h
+NEW FILES FOR MILESTONE 2
+- MyBTService_PlayerLocation.h
+- MyBTTask_Shoot.h
+- MyBTTask_Shoot.cpp
+- MyBTTask_ClearBlackBoardValue.h
+- MyBTTask_ClearBlackBoardValue.cpp
 
 Here is a link to the whole file to my game in order to allow it to be made on another device:
 https://eaglefgcu-my.sharepoint.com/:f:/g/personal/beheins0518_eagle_fgcu_edu/EmvT07ggzA5Pm_E-dSAPahUBIDIq9KD9deCCnSoU7Tp-Nw?e=uKRJWg

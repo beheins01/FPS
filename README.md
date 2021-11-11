@@ -25,6 +25,10 @@ NEW FILES FOR MILESTONE 2
 - MyBTTask_Shoot.cpp
 - MyBTTask_ClearBlackBoardValue.h
 - MyBTTask_ClearBlackBoardValue.cpp
+- SimpleShooterGameGameModeBase.h
+- SimpleShooterGameGameModeBase.cpp
+- MyBTService_PlayerLocationIfSeen.h
+- MyBTService_PlayerLocationIfSeen.cpp
 
 Here is a link to the whole file to my game in order to allow it to be made on another device:
 https://eaglefgcu-my.sharepoint.com/:f:/g/personal/beheins0518_eagle_fgcu_edu/EmvT07ggzA5Pm_E-dSAPahUBIDIq9KD9deCCnSoU7Tp-Nw?e=uKRJWg

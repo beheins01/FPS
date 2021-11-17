@@ -33,6 +33,10 @@ THE FILES I CREATED ARE:
 - ShooterPlayerController.cpp
 - SimpleShooterGame.Build.cs
 
+Link To Video Of Game Working:
+
+https://youtu.be/TKqd6gBG37M
+
 The  Answer to the question:
 
 Explain the relationship between object-oriented inheritance (code-sharing and overriding) and subtyping (the idea of a subtype being usable in a context that expects the supertype).

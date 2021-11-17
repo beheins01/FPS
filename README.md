@@ -8,7 +8,7 @@ I will be creating a video game
 - There will be bullet damage
 - There will be a movement machanic with jumping and running around
 
-THE FILES I CREATED ARE
+THE FILES I CREATED ARE:
 - Gun.cpp
 - Gun.h
 - ShooterAIController.cpp
@@ -17,8 +17,6 @@ THE FILES I CREATED ARE
 - MyShooterCharacter.h
 - MyPawn.cpp
 - MyPawn.h
-
-NEW FILES FOR MILESTONE 2
 - MyBTService_PlayerLocation.h
 - MyBTService_PlayerLocation.cpp
 - MyBTTask_Shoot.h
@@ -39,5 +37,6 @@ The  Answer to the question:
 Explain the relationship between object-oriented inheritance (code-sharing and overriding) and subtyping (the idea of a subtype being usable in a context that expects the supertype).
 Is in the file SimpleShooterGameGameBase.cpp
 
+All the files that I downloaded and that are created at run time are included in this link in my OneDrive:
 Here is a link to the whole file to my game in order to allow it to be made on another device:
 https://eaglefgcu-my.sharepoint.com/:f:/g/personal/beheins0518_eagle_fgcu_edu/En7m4rmPHA5Bj2haMfRqWcEB_7zv17MfHy7aQqefZTiLAA?e=9iAlI3

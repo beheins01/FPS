@@ -35,5 +35,9 @@ NEW FILES FOR MILESTONE 2
 - ShooterPlayerController.cpp
 - SimpleShooterGame.Build.cs
 
+The  Answer to the question:
+Explain the relationship between object-oriented inheritance (code-sharing and overriding) and subtyping (the idea of a subtype being usable in a context that expects the supertype).
+Is in the file SimpleShooterGameGameBase.cpp
+
 Here is a link to the whole file to my game in order to allow it to be made on another device:
 https://eaglefgcu-my.sharepoint.com/:f:/g/personal/beheins0518_eagle_fgcu_edu/En7m4rmPHA5Bj2haMfRqWcEB_7zv17MfHy7aQqefZTiLAA?e=9iAlI3

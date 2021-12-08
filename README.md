@@ -33,6 +33,9 @@ THE FILES I CREATED ARE:
 - ShooterPlayerController.cpp
 - SimpleShooterGame.Build.cs
 
+Doxygen Link:
+file:///C:/Users/ben2h/source/repos/Online%20Game%20Dev%20Class/Simple%20Shooter/SimpleShooterGame/Source/SimpleShooterGame/html/index.html
+
 Link To Video Of Game Working:
 
 https://youtu.be/TKqd6gBG37M

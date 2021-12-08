@@ -43,9 +43,8 @@ THE FILES I CREATED ARE:
 Doxygen Link:
 file:///C:/Users/ben2h/source/repos/Online%20Game%20Dev%20Class/Simple%20Shooter/SimpleShooterGame/Source/SimpleShooterGame/html/index.html
 
-Link To Video Of Game Working:
+https://user-images.githubusercontent.com/62121607/145310039-eafa5adc-15b5-407d-bb9e-2060b44a8848.mp4
 
-https://youtu.be/TKqd6gBG37M
 
 The  Answer to the question:
 

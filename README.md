@@ -32,6 +32,7 @@ THE FILES I CREATED ARE:
 - ShooterPlayerController.h
 - ShooterPlayerController.cpp
 - SimpleShooterGame.Build.cs
+- Docs Folder
 
 Doxygen Link:
 file:///C:/Users/ben2h/source/repos/Online%20Game%20Dev%20Class/Simple%20Shooter/SimpleShooterGame/Source/SimpleShooterGame/html/index.html

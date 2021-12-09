@@ -12,8 +12,7 @@ https://youtu.be/TKqd6gBG37M
 
 
 # Documentation
-file:///C:/Users/ben2h/source/repos/Online%20Game%20Dev%20Class/Simple%20Shooter/SimpleShooterGame/Source/SimpleShooterGame/html/index.html
-YourGitHubUserName.github.io/YourRepositoryName/foldername/filename
+[Doxygen](file:///C:/Users/ben2h/source/repos/Online%20Game%20Dev%20Class/Simple%20Shooter/SimpleShooterGame/Source/SimpleShooterGame/html/index.html)
 
 # Diagrams
 

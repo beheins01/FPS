@@ -12,7 +12,7 @@ https://youtu.be/TKqd6gBG37M
 
 
 # Documentation
-[Doxygen](file:///C:/Users/ben2h/source/repos/Online%20Game%20Dev%20Class/Simple%20Shooter/SimpleShooterGame/Source/SimpleShooterGame/html/class_u_my_b_t_task___shoot.html)
+[Doxygen Video](https://youtu.be/hbxLg11QoiA)
 
 # Diagrams
 

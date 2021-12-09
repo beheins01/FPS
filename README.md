@@ -6,9 +6,7 @@ This project was completing during my programming 2 class (COP 3003). My project
 # Demonstration
 https://user-images.githubusercontent.com/62121607/145310039-eafa5adc-15b5-407d-bb9e-2060b44a8848.mp4
 
-Full Video Link:
-
-https://youtu.be/TKqd6gBG37M
+[Full Video](https://youtu.be/TKqd6gBG37M)
 
 
 # Documentation

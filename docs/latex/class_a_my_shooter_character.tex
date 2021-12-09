@@ -1,0 +1,119 @@
+\hypertarget{class_a_my_shooter_character}{}\doxysection{AMy\+Shooter\+Character Class Reference}
+\label{class_a_my_shooter_character}\index{AMyShooterCharacter@{AMyShooterCharacter}}
+Inheritance diagram for AMy\+Shooter\+Character\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_a_my_shooter_character}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_my_shooter_character_aa51c9adf37a8d4671a067fc8fb3761c9}\label{class_a_my_shooter_character_aa51c9adf37a8d4671a067fc8fb3761c9}} 
+{\bfseries UFUNCTION} (Blueprint\+Pure) bool Is\+Dead() const
+\item 
+float \mbox{\hyperlink{class_a_my_shooter_character_ab20199b95737e3f524654d11717ac423}{Get\+Health\+Percent}} () const
+\begin{DoxyCompactList}\small\item\em This function checks health percentages. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_a_my_shooter_character_a186836794b1a1d29009c1d92cf7b0218}{Tick}} (float Delta\+Time) override
+\begin{DoxyCompactList}\small\item\em This function sets up the tick. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_a_my_shooter_character_a2787a85cac7e071b0532ffd0ceaf6a5f}{Setup\+Player\+Input\+Component}} (class UInput\+Component $\ast$Player\+Input\+Component) override
+\begin{DoxyCompactList}\small\item\em This function sets up the movement inputs. \end{DoxyCompactList}\item 
+virtual float \mbox{\hyperlink{class_a_my_shooter_character_a56783e65bd8ca6c07522b0c04a6948c8}{Take\+Damage}} (float Damage\+Amount, struct FDamage\+Event const \&Damage\+Event, class AController $\ast$Event\+Instigator, AActor $\ast$Damage\+Causer) override
+\begin{DoxyCompactList}\small\item\em This function allows the player to take damage. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_my_shooter_character_aa552aa8951a69ee6eb2ed9e696d7b64c}\label{class_a_my_shooter_character_aa552aa8951a69ee6eb2ed9e696d7b64c}} 
+void {\bfseries Shoot} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_a_my_shooter_character_a1c466bd7f365d74332c43374f8d4b7f7}{Begin\+Play}} () override
+\begin{DoxyCompactList}\small\item\em This function controls what happens when the gamne begins for your character. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_my_shooter_character_a1c466bd7f365d74332c43374f8d4b7f7}\label{class_a_my_shooter_character_a1c466bd7f365d74332c43374f8d4b7f7}} 
+\index{AMyShooterCharacter@{AMyShooterCharacter}!BeginPlay@{BeginPlay}}
+\index{BeginPlay@{BeginPlay}!AMyShooterCharacter@{AMyShooterCharacter}}
+\doxysubsubsection{\texorpdfstring{BeginPlay()}{BeginPlay()}}
+{\footnotesize\ttfamily void AMy\+Shooter\+Character\+::\+Begin\+Play (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+This function controls what happens when the gamne begins for your character. 
+
+This function allows the player to spawn while also giving them their full healht This function also allows the gun to spawn in the players charater while also setting up The weapon socket so more types of weapons can be implemented \mbox{\Hypertarget{class_a_my_shooter_character_ab20199b95737e3f524654d11717ac423}\label{class_a_my_shooter_character_ab20199b95737e3f524654d11717ac423}} 
+\index{AMyShooterCharacter@{AMyShooterCharacter}!GetHealthPercent@{GetHealthPercent}}
+\index{GetHealthPercent@{GetHealthPercent}!AMyShooterCharacter@{AMyShooterCharacter}}
+\doxysubsubsection{\texorpdfstring{GetHealthPercent()}{GetHealthPercent()}}
+{\footnotesize\ttfamily float AMy\+Shooter\+Character\+::\+Get\+Health\+Percent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+This function checks health percentages. 
+
+This function is constantly checking the health percentage of the pawn Allows for the health bar th change when the player or AI is shot \mbox{\Hypertarget{class_a_my_shooter_character_a2787a85cac7e071b0532ffd0ceaf6a5f}\label{class_a_my_shooter_character_a2787a85cac7e071b0532ffd0ceaf6a5f}} 
+\index{AMyShooterCharacter@{AMyShooterCharacter}!SetupPlayerInputComponent@{SetupPlayerInputComponent}}
+\index{SetupPlayerInputComponent@{SetupPlayerInputComponent}!AMyShooterCharacter@{AMyShooterCharacter}}
+\doxysubsubsection{\texorpdfstring{SetupPlayerInputComponent()}{SetupPlayerInputComponent()}}
+{\footnotesize\ttfamily void AMy\+Shooter\+Character\+::\+Setup\+Player\+Input\+Component (\begin{DoxyParamCaption}\item[{class UInput\+Component $\ast$}]{Player\+Input\+Component }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This function sets up the movement inputs. 
+
+Called to bind functionality to input in the game settings you are able to see what keys are bound to the following functionalities (Move\+\_\+\+Forward, Move\+\_\+\+Right, Look\+\_\+\+Up, Look\+\_\+\+Right, Look\+\_\+\+Up\+\_\+\+Rate, Look\+\_\+\+Right\+\_\+\+Rate, Jump, Shoot)
+
+
+\begin{DoxyParams}{Parameters}
+{\em Player\+Input\+Component} & Key bind variable that is enabled within unreal engine \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_a_my_shooter_character_a56783e65bd8ca6c07522b0c04a6948c8}\label{class_a_my_shooter_character_a56783e65bd8ca6c07522b0c04a6948c8}} 
+\index{AMyShooterCharacter@{AMyShooterCharacter}!TakeDamage@{TakeDamage}}
+\index{TakeDamage@{TakeDamage}!AMyShooterCharacter@{AMyShooterCharacter}}
+\doxysubsubsection{\texorpdfstring{TakeDamage()}{TakeDamage()}}
+{\footnotesize\ttfamily float AMy\+Shooter\+Character\+::\+Take\+Damage (\begin{DoxyParamCaption}\item[{float}]{Damage\+Amount,  }\item[{struct FDamage\+Event const \&}]{Damage\+Event,  }\item[{class AController $\ast$}]{Event\+Instigator,  }\item[{AActor $\ast$}]{Damage\+Causer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This function allows the player to take damage. 
+
+This is the function that applied the damage to the pawn and allows for the rest of the health functions to aquire the data needed to execute their functionality
+
+
+\begin{DoxyParams}{Parameters}
+{\em Damage\+Amount} & This is a float value that determines how much health damage to apply \\
+\hline
+{\em Damage\+Event} & This is the thing that causes the damage to the pawn \\
+\hline
+{\em Event\+Instigator} & This is what pawn caused the damage \\
+\hline
+{\em Damage\+Causer} & This is what gun caused the damage\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Damage\+To\+Apply this is a integer value that is the amount of damage done 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_a_my_shooter_character_a186836794b1a1d29009c1d92cf7b0218}\label{class_a_my_shooter_character_a186836794b1a1d29009c1d92cf7b0218}} 
+\index{AMyShooterCharacter@{AMyShooterCharacter}!Tick@{Tick}}
+\index{Tick@{Tick}!AMyShooterCharacter@{AMyShooterCharacter}}
+\doxysubsubsection{\texorpdfstring{Tick()}{Tick()}}
+{\footnotesize\ttfamily void AMy\+Shooter\+Character\+::\+Tick (\begin{DoxyParamCaption}\item[{float}]{Delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This function sets up the tick. 
+
+this function allows the Shooter Character class to change every instance that the game is being run so that it changes every instant and adapts
+
+
+\begin{DoxyParams}{Parameters}
+{\em Delta\+Seconds} & is an integer variable that contains the change in time \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/ben2h/source/repos/\+Online Game Dev Class/\+Simple Shooter/\+Simple\+Shooter\+Game/\+Source/\+Simple\+Shooter\+Game/\mbox{\hyperlink{_my_shooter_character_8h}{My\+Shooter\+Character.\+h}}\item 
+C\+:/\+Users/ben2h/source/repos/\+Online Game Dev Class/\+Simple Shooter/\+Simple\+Shooter\+Game/\+Source/\+Simple\+Shooter\+Game/\mbox{\hyperlink{_my_shooter_character_8cpp}{My\+Shooter\+Character.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,37 @@
+\hypertarget{_shooter_a_i_controller_8h_source}{}\doxysection{Shooter\+AIController.\+h}
+\label{_shooter_a_i_controller_8h_source}\index{C:/Users/ben2h/source/repos/Online Game Dev Class/Simple Shooter/SimpleShooterGame/Source/SimpleShooterGame/ShooterAIController.h@{C:/Users/ben2h/source/repos/Online Game Dev Class/Simple Shooter/SimpleShooterGame/Source/SimpleShooterGame/ShooterAIController.h}}
+\mbox{\hyperlink{_shooter_a_i_controller_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{17 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19 \textcolor{preprocessor}{\#include "{}CoreMinimal.h"{}}}
+\DoxyCodeLine{20 \textcolor{preprocessor}{\#include "{}AIController.h"{}}}
+\DoxyCodeLine{21 \textcolor{preprocessor}{\#include "{}ShooterAIController.generated.h"{}}}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23 }
+\DoxyCodeLine{24 UCLASS()}
+\DoxyCodeLine{25 \textcolor{comment}{//LO2a}}
+\DoxyCodeLine{26 \textcolor{comment}{//In an inheritance relationship, the class being inherited from is called the parent class, base class, or superclass, }}
+\DoxyCodeLine{27 \textcolor{comment}{//and the class doing the inheriting is called the child class, derived class, or subclass.}}
+\DoxyCodeLine{28 \textcolor{comment}{// https://www.learncpp.com/cpp-\/tutorial/basic-\/inheritance-\/in-\/c/}}
+\DoxyCodeLine{29 class SIMPLESHOOTERGAME\_API \mbox{\hyperlink{class_a_shooter_a_i_controller}{AShooterAIController}} : public AAIController     \textcolor{comment}{//LO2}}
+\DoxyCodeLine{30 \{}
+\DoxyCodeLine{31     GENERATED\_BODY()}
+\DoxyCodeLine{32 \textcolor{keyword}{public}:}
+\DoxyCodeLine{33     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} Tick(\textcolor{keywordtype}{float} DeltaSeconds) \textcolor{keyword}{override};         \textcolor{comment}{//Use override just for safety to make sure no bugs occur during gameplay}}
+\DoxyCodeLine{34     }
+\DoxyCodeLine{35     \textcolor{comment}{//This checks to see if the AI has died}}
+\DoxyCodeLine{36     \textcolor{keywordtype}{bool} IsDead() \textcolor{keyword}{const};}
+\DoxyCodeLine{37 }
+\DoxyCodeLine{38 \textcolor{keyword}{protected}:}
+\DoxyCodeLine{39     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} BeginPlay() \textcolor{keyword}{override};}
+\DoxyCodeLine{40 }
+\DoxyCodeLine{41 \textcolor{keyword}{private}:}
+\DoxyCodeLine{42     UPROPERTY(EditAnywhere)}
+\DoxyCodeLine{43         \textcolor{keyword}{class }UBehaviorTree* AIBehavior;}
+\DoxyCodeLine{44 }
+\DoxyCodeLine{45     }
+\DoxyCodeLine{46 \};}
+
+\end{DoxyCode}

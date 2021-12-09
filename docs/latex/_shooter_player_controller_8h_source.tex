@@ -1,0 +1,49 @@
+\hypertarget{_shooter_player_controller_8h_source}{}\doxysection{Shooter\+Player\+Controller.\+h}
+\label{_shooter_player_controller_8h_source}\index{C:/Users/ben2h/source/repos/Online Game Dev Class/Simple Shooter/SimpleShooterGame/Source/SimpleShooterGame/ShooterPlayerController.h@{C:/Users/ben2h/source/repos/Online Game Dev Class/Simple Shooter/SimpleShooterGame/Source/SimpleShooterGame/ShooterPlayerController.h}}
+\mbox{\hyperlink{_shooter_player_controller_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18 \textcolor{preprocessor}{\#include "{}CoreMinimal.h"{}}}
+\DoxyCodeLine{19 \textcolor{preprocessor}{\#include "{}GameFramework/PlayerController.h"{}}}
+\DoxyCodeLine{20 \textcolor{preprocessor}{\#include "{}ShooterPlayerController.generated.h"{}}}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{25 UCLASS()}
+\DoxyCodeLine{26 class SIMPLESHOOTERGAME\_API \mbox{\hyperlink{class_a_shooter_player_controller}{AShooterPlayerController}} : public APlayerController}
+\DoxyCodeLine{27 \{}
+\DoxyCodeLine{28     GENERATED\_BODY()}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{30 \textcolor{keyword}{public}:}
+\DoxyCodeLine{31     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} GameHasEnded(\textcolor{keyword}{class} AActor *EndGameFocus = \textcolor{keyword}{nullptr}, \textcolor{keywordtype}{bool} bIsWinner = \textcolor{keyword}{false}) \textcolor{keyword}{override};}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 \textcolor{keyword}{protected}:}
+\DoxyCodeLine{34     \textcolor{comment}{// Called when the game starts or when spawned}}
+\DoxyCodeLine{35     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} BeginPlay() \textcolor{keyword}{override};}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{37 \textcolor{keyword}{private}:}
+\DoxyCodeLine{38     \textcolor{comment}{//These are the unreal engine properties for the character Heads Up Display (HUD)}}
+\DoxyCodeLine{39     UPROPERTY(EditAnywhere)}
+\DoxyCodeLine{40     TSubclassOf<class UUserWidget> HUDClass;}
+\DoxyCodeLine{41 }
+\DoxyCodeLine{42     UPROPERTY(EditAnywhere)}
+\DoxyCodeLine{43     TSubclassOf<class UUserWidget> WinScreenClass;}
+\DoxyCodeLine{44 }
+\DoxyCodeLine{45 }
+\DoxyCodeLine{46     UPROPERTY(EditAnywhere)}
+\DoxyCodeLine{47     TSubclassOf<class UUserWidget> LoseScreenClass;}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49     \textcolor{comment}{//This is the unreal property that sets a delay until the game restarts }}
+\DoxyCodeLine{50     \textcolor{comment}{//This allows you to read the end game display}}
+\DoxyCodeLine{51     UPROPERTY(EditAnywhere)}
+\DoxyCodeLine{52     \textcolor{keywordtype}{float} RestartDelay = 5;}
+\DoxyCodeLine{53 }
+\DoxyCodeLine{54     FTimerHandle RestartTimer; \textcolor{comment}{//The FTimerHandle allows for the timer to be manipulated}}
+\DoxyCodeLine{55 }
+\DoxyCodeLine{56     \textcolor{comment}{//This is what I can call to access the hud of the character}}
+\DoxyCodeLine{57     UPROPERTY(EditAnywhere)}
+\DoxyCodeLine{58     UUserWidget* HUD;}
+\DoxyCodeLine{59     }
+\DoxyCodeLine{60 \};}
+
+\end{DoxyCode}

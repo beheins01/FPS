@@ -1,0 +1,57 @@
+\hypertarget{class_a_gun}{}\doxysection{AGun Class Reference}
+\label{class_a_gun}\index{AGun@{AGun}}
+Inheritance diagram for AGun\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_a_gun}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_a_gun_a3ec5534a6d05015f9e5c82575f12a4f9}{Pull\+Trigger}} ()
+\begin{DoxyCompactList}\small\item\em This function gets the gun trace so that it can track the bullets coming out of the gun. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_a_gun_af48b4a19c4f79c4d5d05817c7bbea9a8}{Tick}} (float Delta\+Time) override
+\begin{DoxyCompactList}\small\item\em This function sets up the tick. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_gun_a56e42d761550ea36db725681e50f0615}\label{class_a_gun_a56e42d761550ea36db725681e50f0615}} 
+virtual void {\bfseries Begin\+Play} () override
+\begin{DoxyCompactList}\small\item\em This function controls what happens when the gamne begins for the gun. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_gun_a3ec5534a6d05015f9e5c82575f12a4f9}\label{class_a_gun_a3ec5534a6d05015f9e5c82575f12a4f9}} 
+\index{AGun@{AGun}!PullTrigger@{PullTrigger}}
+\index{PullTrigger@{PullTrigger}!AGun@{AGun}}
+\doxysubsubsection{\texorpdfstring{PullTrigger()}{PullTrigger()}}
+{\footnotesize\ttfamily void AGun\+::\+Pull\+Trigger (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This function gets the gun trace so that it can track the bullets coming out of the gun. 
+
+This function applies the gun animations and sounds to the gun so that they can be implemented in the code later \mbox{\Hypertarget{class_a_gun_af48b4a19c4f79c4d5d05817c7bbea9a8}\label{class_a_gun_af48b4a19c4f79c4d5d05817c7bbea9a8}} 
+\index{AGun@{AGun}!Tick@{Tick}}
+\index{Tick@{Tick}!AGun@{AGun}}
+\doxysubsubsection{\texorpdfstring{Tick()}{Tick()}}
+{\footnotesize\ttfamily void AGun\+::\+Tick (\begin{DoxyParamCaption}\item[{float}]{Delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This function sets up the tick. 
+
+this function allows the \mbox{\hyperlink{class_a_gun}{AGun}} class to change every instance that the game is being run so that it changes every instant and adapts
+
+
+\begin{DoxyParams}{Parameters}
+{\em Delta\+Seconds} & is an integer variable that contains the change in time \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/ben2h/source/repos/\+Online Game Dev Class/\+Simple Shooter/\+Simple\+Shooter\+Game/\+Source/\+Simple\+Shooter\+Game/Gun.\+h\item 
+C\+:/\+Users/ben2h/source/repos/\+Online Game Dev Class/\+Simple Shooter/\+Simple\+Shooter\+Game/\+Source/\+Simple\+Shooter\+Game/Gun.\+cpp\end{DoxyCompactItemize}

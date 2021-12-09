@@ -1,0 +1,46 @@
+\hypertarget{class_u_my_b_t_service___player_location_if_seen}{}\doxysection{UMy\+BTService\+\_\+\+Player\+Location\+If\+Seen Class Reference}
+\label{class_u_my_b_t_service___player_location_if_seen}\index{UMyBTService\_PlayerLocationIfSeen@{UMyBTService\_PlayerLocationIfSeen}}
+Inheritance diagram for UMy\+BTService\+\_\+\+Player\+Location\+If\+Seen\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_u_my_b_t_service___player_location_if_seen}
+\end{center}
+\end{figure}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_u_my_b_t_service___player_location_if_seen_a459d77889e1362dd2f2a00cb67701175}{Tick\+Node}} (UBehavior\+Tree\+Component \&Owner\+Comp, uint8 $\ast$Node\+Memory, float Delta\+Seconds) override
+\begin{DoxyCompactList}\small\item\em Controles the AI movement, linetracing to look at the player. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_u_my_b_t_service___player_location_if_seen_a459d77889e1362dd2f2a00cb67701175}\label{class_u_my_b_t_service___player_location_if_seen_a459d77889e1362dd2f2a00cb67701175}} 
+\index{UMyBTService\_PlayerLocationIfSeen@{UMyBTService\_PlayerLocationIfSeen}!TickNode@{TickNode}}
+\index{TickNode@{TickNode}!UMyBTService\_PlayerLocationIfSeen@{UMyBTService\_PlayerLocationIfSeen}}
+\doxysubsubsection{\texorpdfstring{TickNode()}{TickNode()}}
+{\footnotesize\ttfamily void UMy\+BTService\+\_\+\+Player\+Location\+If\+Seen\+::\+Tick\+Node (\begin{DoxyParamCaption}\item[{UBehavior\+Tree\+Component \&}]{Owner\+Comp,  }\item[{uint8 $\ast$}]{Node\+Memory,  }\item[{float}]{Delta\+Seconds }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Controles the AI movement, linetracing to look at the player. 
+
+This function controls the AI to go to to the players location If the player breaks line of sight with the AI it will then search the area that the player was last seen in If the AI doesnt find the character they will go back to their spawn point
+
+
+\begin{DoxyParams}{Parameters}
+{\em Owner\+Comp} & This is a Behavior tree component that takes the value and stores it in the behavior tree \\
+\hline
+{\em Node\+Memory} & This is an unreal integer that takes the node number and stores it in temporary memory \\
+\hline
+{\em Delta} & Seconds is an integer variable that contains the change in time\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+null 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/ben2h/source/repos/\+Online Game Dev Class/\+Simple Shooter/\+Simple\+Shooter\+Game/\+Source/\+Simple\+Shooter\+Game/My\+BTService\+\_\+\+Player\+Location\+If\+Seen.\+h\item 
+C\+:/\+Users/ben2h/source/repos/\+Online Game Dev Class/\+Simple Shooter/\+Simple\+Shooter\+Game/\+Source/\+Simple\+Shooter\+Game/\mbox{\hyperlink{_my_b_t_service___player_location_if_seen_8cpp}{My\+BTService\+\_\+\+Player\+Location\+If\+Seen.\+cpp}}\end{DoxyCompactItemize}

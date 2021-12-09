@@ -1,0 +1,54 @@
+\hypertarget{class_a_shooter_player_controller}{}\doxysection{AShooter\+Player\+Controller Class Reference}
+\label{class_a_shooter_player_controller}\index{AShooterPlayerController@{AShooterPlayerController}}
+Inheritance diagram for AShooter\+Player\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_a_shooter_player_controller}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_a_shooter_player_controller_a3c021ed10f4929aa6767cd332fc29879}{Game\+Has\+Ended}} (class AActor $\ast$End\+Game\+Focus=nullptr, bool b\+Is\+Winner=false) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_a_shooter_player_controller_aa890782c3be8d20d651717bb85cb56e8}{Begin\+Play}} () override
+\begin{DoxyCompactList}\small\item\em This function controls what happens when the gamne begins for the Shooter\+Characters HUD. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_shooter_player_controller_aa890782c3be8d20d651717bb85cb56e8}\label{class_a_shooter_player_controller_aa890782c3be8d20d651717bb85cb56e8}} 
+\index{AShooterPlayerController@{AShooterPlayerController}!BeginPlay@{BeginPlay}}
+\index{BeginPlay@{BeginPlay}!AShooterPlayerController@{AShooterPlayerController}}
+\doxysubsubsection{\texorpdfstring{BeginPlay()}{BeginPlay()}}
+{\footnotesize\ttfamily void AShooter\+Player\+Controller\+::\+Begin\+Play (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+This function controls what happens when the gamne begins for the Shooter\+Characters HUD. 
+
+This function attached the HUD to the players view port so that they can see their health and end game screens \mbox{\Hypertarget{class_a_shooter_player_controller_a3c021ed10f4929aa6767cd332fc29879}\label{class_a_shooter_player_controller_a3c021ed10f4929aa6767cd332fc29879}} 
+\index{AShooterPlayerController@{AShooterPlayerController}!GameHasEnded@{GameHasEnded}}
+\index{GameHasEnded@{GameHasEnded}!AShooterPlayerController@{AShooterPlayerController}}
+\doxysubsubsection{\texorpdfstring{GameHasEnded()}{GameHasEnded()}}
+{\footnotesize\ttfamily void AShooter\+Player\+Controller\+::\+Game\+Has\+Ended (\begin{DoxyParamCaption}\item[{class AActor $\ast$}]{End\+Game\+Focus = {\ttfamily nullptr},  }\item[{bool}]{b\+Is\+Winner = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+This function is where the win and lose screan are made and inherited from
+
+This function allows for the end game win and loss screans to be implemented and used
+
+
+\begin{DoxyParams}{Parameters}
+{\em End\+Game\+Focus} & Determines how the game ended \\
+\hline
+{\em b\+Is\+Winner} & boolean that determines if the game is over and what screen to show \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/ben2h/source/repos/\+Online Game Dev Class/\+Simple Shooter/\+Simple\+Shooter\+Game/\+Source/\+Simple\+Shooter\+Game/\mbox{\hyperlink{_shooter_player_controller_8h}{Shooter\+Player\+Controller.\+h}}\item 
+C\+:/\+Users/ben2h/source/repos/\+Online Game Dev Class/\+Simple Shooter/\+Simple\+Shooter\+Game/\+Source/\+Simple\+Shooter\+Game/\mbox{\hyperlink{_shooter_player_controller_8cpp}{Shooter\+Player\+Controller.\+cpp}}\end{DoxyCompactItemize}

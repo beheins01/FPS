@@ -1,0 +1,71 @@
+\hypertarget{class_a_shooter_a_i_controller}{}\doxysection{AShooter\+AIController Class Reference}
+\label{class_a_shooter_a_i_controller}\index{AShooterAIController@{AShooterAIController}}
+Inheritance diagram for AShooter\+AIController\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_a_shooter_a_i_controller}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_a_shooter_a_i_controller_a5b879c208041c052a511401a2b5e79b1}{Tick}} (float Delta\+Seconds) override
+\begin{DoxyCompactList}\small\item\em This function sets up the tick. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_a_shooter_a_i_controller_a6f9a76bbe16d851da8b39d27102ac176}{Is\+Dead}} () const
+\begin{DoxyCompactList}\small\item\em function that determines when the AI has died and the makes sure that they do not respawn \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_a_shooter_a_i_controller_a755c061f6948913894e82052111a4059}{Begin\+Play}} () override
+\begin{DoxyCompactList}\small\item\em This function controls what happens when the gamne begins for the AI. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_shooter_a_i_controller_a755c061f6948913894e82052111a4059}\label{class_a_shooter_a_i_controller_a755c061f6948913894e82052111a4059}} 
+\index{AShooterAIController@{AShooterAIController}!BeginPlay@{BeginPlay}}
+\index{BeginPlay@{BeginPlay}!AShooterAIController@{AShooterAIController}}
+\doxysubsubsection{\texorpdfstring{BeginPlay()}{BeginPlay()}}
+{\footnotesize\ttfamily void AShooter\+AIController\+::\+Begin\+Play (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+This function controls what happens when the gamne begins for the AI. 
+
+This function allows the AI to spawn in their designated locations while also initializing the ability to see player location and their start location \mbox{\Hypertarget{class_a_shooter_a_i_controller_a6f9a76bbe16d851da8b39d27102ac176}\label{class_a_shooter_a_i_controller_a6f9a76bbe16d851da8b39d27102ac176}} 
+\index{AShooterAIController@{AShooterAIController}!IsDead@{IsDead}}
+\index{IsDead@{IsDead}!AShooterAIController@{AShooterAIController}}
+\doxysubsubsection{\texorpdfstring{IsDead()}{IsDead()}}
+{\footnotesize\ttfamily bool AShooter\+AIController\+::\+Is\+Dead (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+function that determines when the AI has died and the makes sure that they do not respawn 
+
+This function is checking to see if the AI has died and if it is dead the function ensures that the AI cannot respawn
+
+\begin{DoxyReturn}{Returns}
+True if the AI did die 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_a_shooter_a_i_controller_a5b879c208041c052a511401a2b5e79b1}\label{class_a_shooter_a_i_controller_a5b879c208041c052a511401a2b5e79b1}} 
+\index{AShooterAIController@{AShooterAIController}!Tick@{Tick}}
+\index{Tick@{Tick}!AShooterAIController@{AShooterAIController}}
+\doxysubsubsection{\texorpdfstring{Tick()}{Tick()}}
+{\footnotesize\ttfamily void AShooter\+AIController\+::\+Tick (\begin{DoxyParamCaption}\item[{float}]{Delta\+Seconds }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This function sets up the tick. 
+
+this function allows the Shooter\+AIController class to change every instance that the game is being run so that it changes every instant and adapts
+
+
+\begin{DoxyParams}{Parameters}
+{\em Delta\+Seconds} & is an integer variable that contains the change in time \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/ben2h/source/repos/\+Online Game Dev Class/\+Simple Shooter/\+Simple\+Shooter\+Game/\+Source/\+Simple\+Shooter\+Game/\mbox{\hyperlink{_shooter_a_i_controller_8h}{Shooter\+AIController.\+h}}\item 
+C\+:/\+Users/ben2h/source/repos/\+Online Game Dev Class/\+Simple Shooter/\+Simple\+Shooter\+Game/\+Source/\+Simple\+Shooter\+Game/\mbox{\hyperlink{_shooter_a_i_controller_8cpp}{Shooter\+AIController.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,46 @@
+\hypertarget{class_a_kill_them_all_mode}{}\doxysection{AKill\+Them\+All\+Mode Class Reference}
+\label{class_a_kill_them_all_mode}\index{AKillThemAllMode@{AKillThemAllMode}}
+Inheritance diagram for AKill\+Them\+All\+Mode\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_a_kill_them_all_mode}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_a_kill_them_all_mode_ac71d430c11899aa5107667a5e1386bd1}{Pawn\+Killed}} (APawn $\ast$Pawn\+Killed) override
+\begin{DoxyCompactList}\small\item\em This sets up the main gamemode that you spawn in, to just kill all the AI. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_kill_them_all_mode_ac71d430c11899aa5107667a5e1386bd1}\label{class_a_kill_them_all_mode_ac71d430c11899aa5107667a5e1386bd1}} 
+\index{AKillThemAllMode@{AKillThemAllMode}!PawnKilled@{PawnKilled}}
+\index{PawnKilled@{PawnKilled}!AKillThemAllMode@{AKillThemAllMode}}
+\doxysubsubsection{\texorpdfstring{PawnKilled()}{PawnKilled()}}
+{\footnotesize\ttfamily void AKill\+Them\+All\+Mode\+::\+Pawn\+Killed (\begin{DoxyParamCaption}\item[{APawn $\ast$}]{Pawn\+Killed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This sets up the main gamemode that you spawn in, to just kill all the AI. 
+
+This function goes through each AI and determines if they are dead or alive This function also helps to end the game if all the AI are dead and or keeps the game going if there are any AI alive
+
+
+\begin{DoxyParams}{Parameters}
+{\em Pawn\+Killed} & This is bool that determines if the pawn is dead\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True which tells the game to end 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_a_simple_shooter_game_game_mode_base_a029ee954148cb22a8cf0847160fea448}{ASimple\+Shooter\+Game\+Game\+Mode\+Base}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/ben2h/source/repos/\+Online Game Dev Class/\+Simple Shooter/\+Simple\+Shooter\+Game/\+Source/\+Simple\+Shooter\+Game/\mbox{\hyperlink{_kill_them_all_mode_8h}{Kill\+Them\+All\+Mode.\+h}}\item 
+C\+:/\+Users/ben2h/source/repos/\+Online Game Dev Class/\+Simple Shooter/\+Simple\+Shooter\+Game/\+Source/\+Simple\+Shooter\+Game/\mbox{\hyperlink{_kill_them_all_mode_8cpp}{Kill\+Them\+All\+Mode.\+cpp}}\end{DoxyCompactItemize}

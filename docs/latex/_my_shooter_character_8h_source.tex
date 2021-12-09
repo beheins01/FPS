@@ -1,0 +1,74 @@
+\hypertarget{_my_shooter_character_8h_source}{}\doxysection{My\+Shooter\+Character.\+h}
+\label{_my_shooter_character_8h_source}\index{C:/Users/ben2h/source/repos/Online Game Dev Class/Simple Shooter/SimpleShooterGame/Source/SimpleShooterGame/MyShooterCharacter.h@{C:/Users/ben2h/source/repos/Online Game Dev Class/Simple Shooter/SimpleShooterGame/Source/SimpleShooterGame/MyShooterCharacter.h}}
+\mbox{\hyperlink{_my_shooter_character_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#include "{}CoreMinimal.h"{}}}
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#include "{}GameFramework/Character.h"{}}}
+\DoxyCodeLine{17 \textcolor{preprocessor}{\#include "{}MyShooterCharacter.generated.h"{}}}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19 \textcolor{keyword}{class }\mbox{\hyperlink{class_a_gun}{AGun}};}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21 UCLASS()}
+\DoxyCodeLine{22 \textcolor{comment}{//LO1}}
+\DoxyCodeLine{23 \textcolor{comment}{//LO1a}}
+\DoxyCodeLine{24 \textcolor{comment}{//LO6}}
+\DoxyCodeLine{25 class SIMPLESHOOTERGAME\_API \mbox{\hyperlink{class_a_my_shooter_character}{AMyShooterCharacter}} : public ACharacter      \textcolor{comment}{//Here in the program the class : AMyShooterCharacter is inheriting from ACharacter}}
+\DoxyCodeLine{26 \{}
+\DoxyCodeLine{27     GENERATED\_BODY()}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{29 \textcolor{keyword}{public}:}
+\DoxyCodeLine{30     \textcolor{comment}{// Sets default values for this character's properties}}
+\DoxyCodeLine{31     \mbox{\hyperlink{class_a_my_shooter_character}{AMyShooterCharacter}}();}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 \textcolor{keyword}{protected}:}
+\DoxyCodeLine{34     \textcolor{comment}{// Called when the game starts or when spawned}}
+\DoxyCodeLine{35     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_a_gun_a56e42d761550ea36db725681e50f0615}{BeginPlay}}() \textcolor{keyword}{override};}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{37 \textcolor{keyword}{public}: }
+\DoxyCodeLine{38     UFUNCTION(BlueprintPure)        \textcolor{comment}{//This is almost like Blueprintconst instead BlueprintPure only affects the output it produces}}
+\DoxyCodeLine{39                                     \textcolor{comment}{//It also removes the need for an execution pin in the amination blueprint in Unreal}}
+\DoxyCodeLine{40     \textcolor{keywordtype}{bool} IsDead() \textcolor{keyword}{const};}
+\DoxyCodeLine{41 }
+\DoxyCodeLine{42     UFUNCTION(BlueprintPure)        }
+\DoxyCodeLine{43     \textcolor{keywordtype}{float} GetHealthPercent() \textcolor{keyword}{const};}
+\DoxyCodeLine{44 }
+\DoxyCodeLine{45     \textcolor{comment}{// Called every frame}}
+\DoxyCodeLine{46     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_a_gun_af48b4a19c4f79c4d5d05817c7bbea9a8}{Tick}}(\textcolor{keywordtype}{float} DeltaTime) \textcolor{keyword}{override};}
+\DoxyCodeLine{47 }
+\DoxyCodeLine{48     \textcolor{comment}{// Called to bind functionality to input}}
+\DoxyCodeLine{49     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} SetupPlayerInputComponent(\textcolor{keyword}{class} UInputComponent* PlayerInputComponent) \textcolor{keyword}{override};}
+\DoxyCodeLine{50 }
+\DoxyCodeLine{51     \textcolor{keyword}{virtual} \textcolor{keywordtype}{float} TakeDamage(\textcolor{keywordtype}{float} DamageAmount, \textcolor{keyword}{struct} FDamageEvent \textcolor{keyword}{const}\& DamageEvent, \textcolor{keyword}{class} AController* EventInstigator, AActor* DamageCauser) \textcolor{keyword}{override};}
+\DoxyCodeLine{52 }
+\DoxyCodeLine{53     \textcolor{keywordtype}{void} Shoot();}
+\DoxyCodeLine{54 }
+\DoxyCodeLine{55 \textcolor{keyword}{private}:}
+\DoxyCodeLine{56     }
+\DoxyCodeLine{57     \textcolor{keywordtype}{void} MoveForward(\textcolor{keywordtype}{float} AxisValue);}
+\DoxyCodeLine{58     \textcolor{keywordtype}{void} MoveRight(\textcolor{keywordtype}{float} AxisValue);}
+\DoxyCodeLine{59     \textcolor{keywordtype}{void} LookUp(\textcolor{keywordtype}{float} AxisValue);}
+\DoxyCodeLine{60     \textcolor{keywordtype}{void} LookUpRate(\textcolor{keywordtype}{float} AxisValue);}
+\DoxyCodeLine{61     \textcolor{keywordtype}{void} LookRightRate(\textcolor{keywordtype}{float} AxisValue);}
+\DoxyCodeLine{62     }
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64 }
+\DoxyCodeLine{65     UPROPERTY(EditAnywhere)}
+\DoxyCodeLine{66     \textcolor{keywordtype}{float} RotationRate = 30;}
+\DoxyCodeLine{67     }
+\DoxyCodeLine{68     UPROPERTY(EditDefaultsOnly)}
+\DoxyCodeLine{69     \textcolor{keywordtype}{float} MaxHealth = 100;}
+\DoxyCodeLine{70 }
+\DoxyCodeLine{71     UPROPERTY(VisibleAnywhere)}
+\DoxyCodeLine{72     \textcolor{keywordtype}{float} Health;}
+\DoxyCodeLine{73 }
+\DoxyCodeLine{74     UPROPERTY(EditDefaultsOnly)}
+\DoxyCodeLine{75     TSubclassOf<AGun> GunClass;}
+\DoxyCodeLine{76 }
+\DoxyCodeLine{77     UPROPERTY()}
+\DoxyCodeLine{78     \mbox{\hyperlink{class_a_gun}{AGun}}* Gun;}
+\DoxyCodeLine{79 \};}
+
+\end{DoxyCode}

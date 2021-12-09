@@ -1,0 +1,53 @@
+\hypertarget{class_u_my_b_t_service___player_location}{}\doxysection{UMy\+BTService\+\_\+\+Player\+Location Class Reference}
+\label{class_u_my_b_t_service___player_location}\index{UMyBTService\_PlayerLocation@{UMyBTService\_PlayerLocation}}
+
+
+{\ttfamily \#include $<$My\+BTService\+\_\+\+Player\+Location.\+h$>$}
+
+Inheritance diagram for UMy\+BTService\+\_\+\+Player\+Location\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_u_my_b_t_service___player_location}
+\end{center}
+\end{figure}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_u_my_b_t_service___player_location_a41ebb6f075bc4ae308a6d98c63b744fa}{Tick\+Node}} (UBehavior\+Tree\+Component \&Owner\+Comp, uint8 $\ast$Node\+Memory, float Delta\+Seconds) override
+\begin{DoxyCompactList}\small\item\em This function uses the blackboard within unreal. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This sets up in the Behavior Tree within the unreal engine file to utilize the player location 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_u_my_b_t_service___player_location_a41ebb6f075bc4ae308a6d98c63b744fa}\label{class_u_my_b_t_service___player_location_a41ebb6f075bc4ae308a6d98c63b744fa}} 
+\index{UMyBTService\_PlayerLocation@{UMyBTService\_PlayerLocation}!TickNode@{TickNode}}
+\index{TickNode@{TickNode}!UMyBTService\_PlayerLocation@{UMyBTService\_PlayerLocation}}
+\doxysubsubsection{\texorpdfstring{TickNode()}{TickNode()}}
+{\footnotesize\ttfamily void UMy\+BTService\+\_\+\+Player\+Location\+::\+Tick\+Node (\begin{DoxyParamCaption}\item[{UBehavior\+Tree\+Component \&}]{Owner\+Comp,  }\item[{uint8 $\ast$}]{Node\+Memory,  }\item[{float}]{Delta\+Seconds }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+This function uses the blackboard within unreal. 
+
+This function make a node for the tick functions in the blackboard whilch takes the player pawn and gets it in game location while also tracks the component.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Owner\+Comp} & This is a Behavior tree component that takes the value and stores it in the behavior tree \\
+\hline
+{\em Node\+Memory} & This is an unreal integer that takes the node number and stores it in temporary memory \\
+\hline
+{\em Delta} & Seconds is an integer variable that contains the change in time\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+null 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/ben2h/source/repos/\+Online Game Dev Class/\+Simple Shooter/\+Simple\+Shooter\+Game/\+Source/\+Simple\+Shooter\+Game/\mbox{\hyperlink{_my_b_t_service___player_location_8h}{My\+BTService\+\_\+\+Player\+Location.\+h}}\item 
+C\+:/\+Users/ben2h/source/repos/\+Online Game Dev Class/\+Simple Shooter/\+Simple\+Shooter\+Game/\+Source/\+Simple\+Shooter\+Game/\mbox{\hyperlink{_my_b_t_service___player_location_8cpp}{My\+BTService\+\_\+\+Player\+Location.\+cpp}}\end{DoxyCompactItemize}

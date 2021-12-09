@@ -1,0 +1,26 @@
+\hypertarget{_kill_them_all_mode_8h_source}{}\doxysection{Kill\+Them\+All\+Mode.\+h}
+\label{_kill_them_all_mode_8h_source}\index{C:/Users/ben2h/source/repos/Online Game Dev Class/Simple Shooter/SimpleShooterGame/Source/SimpleShooterGame/KillThemAllMode.h@{C:/Users/ben2h/source/repos/Online Game Dev Class/Simple Shooter/SimpleShooterGame/Source/SimpleShooterGame/KillThemAllMode.h}}
+\mbox{\hyperlink{_kill_them_all_mode_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include "{}CoreMinimal.h"{}}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_simple_shooter_game_game_mode_base_8h}{SimpleShooterGameGameModeBase.h}}"{}}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include "{}KillThemAllMode.generated.h"{}}}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16 UCLASS()}
+\DoxyCodeLine{17 class SIMPLESHOOTERGAME\_API \mbox{\hyperlink{class_a_kill_them_all_mode}{AKillThemAllMode}} : public \mbox{\hyperlink{class_a_simple_shooter_game_game_mode_base}{ASimpleShooterGameGameModeBase}}}
+\DoxyCodeLine{18 \{}
+\DoxyCodeLine{19     GENERATED\_BODY()}
+\DoxyCodeLine{20     }
+\DoxyCodeLine{21 \textcolor{keyword}{public}:}
+\DoxyCodeLine{22     \textcolor{comment}{//This allows the code to detect when the pawn or character is dead}}
+\DoxyCodeLine{23     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} PawnKilled(APawn* PawnKilled)\textcolor{keyword}{override};}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 \textcolor{keyword}{private}:}
+\DoxyCodeLine{26     \textcolor{comment}{//This allows for the .cpp file to determine if the game is over}}
+\DoxyCodeLine{27     \textcolor{keywordtype}{void} EndGame(\textcolor{keywordtype}{bool} bIsPlayerWinner);}
+\DoxyCodeLine{28 \};}
+
+\end{DoxyCode}

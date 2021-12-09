@@ -72,6 +72,12 @@ https://user-images.githubusercontent.com/62121607/145310039-eafa5adc-15b5-407d-
 
 [Udemy Course](https://www.udemy.com/course/unrealcourse/)
 
+# Error/Warnings
+
+![Capture](https://user-images.githubusercontent.com/62121607/145320343-2ecdf4ee-004f-481b-9b27-15bdf3841799.PNG)
+
+
+
 # All The Files You Need
 All the files that I downloaded and that are created at run time are included in this link in my OneDrive:
 

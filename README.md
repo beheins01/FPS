@@ -10,7 +10,7 @@ https://user-images.githubusercontent.com/62121607/145310039-eafa5adc-15b5-407d-
 
 
 # Documentation
-[Doxygen Video](https://youtu.be/hbxLg11QoiA)
+[Doxygen](https://beheins01.github.io/Simple-Shooting-Game/html/)
 
 # Diagrams
 

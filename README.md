@@ -14,36 +14,47 @@ YourGitHubUserName.github.io/YourRepositoryName/foldername/filename
 # Diagramns
 
 - Class: AGun
+
 ![Diagram 1](https://user-images.githubusercontent.com/62121607/145310859-c3cc0166-7ef3-41e5-a9b0-3e38c68713a4.PNG)
 
 - Class: AKillThemAllMode
+
 ![Diagram 2](https://user-images.githubusercontent.com/62121607/145310707-46f43c2f-e598-4dde-815e-9f7bc04628fe.PNG)
 
 - Class: AMyPawn
+
 ![Diagram 3](https://user-images.githubusercontent.com/62121607/145310718-80d497a4-1321-47be-a023-99d724f7da01.PNG)
 
 - Class: AMyShooterCharacter
+
 ![Diagram 4](https://user-images.githubusercontent.com/62121607/145310719-386a7ace-3a7d-4805-86cf-99ff049bafc3.PNG)
 
 - Class: AShooterAIController
+
 ![Diagram 5](https://user-images.githubusercontent.com/62121607/145310727-ad2f0a79-2712-43fe-a594-9d049ba846b2.PNG)
 
 - Class: AShooterPlayerController
+
 ![Diagram 6](https://user-images.githubusercontent.com/62121607/145310735-6ba2da52-b16f-48f5-91a5-567335c4e7ef.PNG)
 
 - Class: ASimpleGameGameModeBase
+
 ![Diagram 7](https://user-images.githubusercontent.com/62121607/145310742-8ee3edce-4165-442a-a9a4-d4c8fc0f9960.PNG)
 
 - Class: UMyBTService_PlayerLocation
+
 ![Diagram 8](https://user-images.githubusercontent.com/62121607/145310746-708cab0b-7341-4ad3-a97b-f2f6017ff8e0.PNG)
 
 - Class: UMyBTService_PlayerLocationIfSeen
+
 ![Diagram 9](https://user-images.githubusercontent.com/62121607/145310750-63e7e08e-c2e5-4fcc-8120-bde4fb9dbb22.PNG)
 
 - Class: UMyBTTask_ClearBlackBoardValue
+
 ![Diagram 10](https://user-images.githubusercontent.com/62121607/145310755-8c8e3066-e526-4530-b5c4-4dcf9fb2eb3d.PNG)
 
 - Class: UMyBTTask_Shoot
+
 ![Diagram 11](https://user-images.githubusercontent.com/62121607/145310759-bce09772-32cc-4617-806e-58bbff4438df.PNG)
 
 

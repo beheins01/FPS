@@ -11,7 +11,7 @@ https://user-images.githubusercontent.com/62121607/145310039-eafa5adc-15b5-407d-
 file:///C:/Users/ben2h/source/repos/Online%20Game%20Dev%20Class/Simple%20Shooter/SimpleShooterGame/Source/SimpleShooterGame/html/index.html
 YourGitHubUserName.github.io/YourRepositoryName/foldername/filename
 
-# Diagramns
+# Diagrams
 
 - Class: AGun
 
@@ -57,6 +57,19 @@ YourGitHubUserName.github.io/YourRepositoryName/foldername/filename
 
 ![Diagram 11](https://user-images.githubusercontent.com/62121607/145310759-bce09772-32cc-4617-806e-58bbff4438df.PNG)
 
+#Built With
+
+- Microsoft Visual Studios
+- Microsoft Visual Studios Code
+- Utilized UDEMY.com
+
+#Author
+
+- BEN HEINS
+
+#Acknowledgments
+
+- https://www.udemy.com/course/unrealcourse/
 
 
 

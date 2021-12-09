@@ -75,42 +75,7 @@ YourGitHubUserName.github.io/YourRepositoryName/foldername/filename
 
 - https://www.udemy.com/course/unrealcourse/
 
-
-
-I will be creating a video game
-
-- In this project I will be creating a Third Person Shooter
-- In this game the goal will be to defeat the enemies
-- There will be your character and other characters in the game
-- There will be bullet damage
-- There will be a movement machanic with jumping and running around
-
-THE FILES I CREATED ARE:
-- Gun.cpp
-- Gun.h
-- ShooterAIController.cpp
-- ShooterAIController.h
-- MyShooterCharacter.cpp
-- MyShooterCharacter.h
-- MyPawn.cpp
-- MyPawn.h
-- MyBTService_PlayerLocation.h
-- MyBTService_PlayerLocation.cpp
-- MyBTTask_Shoot.h
-- MyBTTask_Shoot.cpp
-- MyBTTask_ClearBlackBoardValue.h
-- MyBTTask_ClearBlackBoardValue.cpp
-- SimpleShooterGameGameModeBase.h
-- SimpleShooterGameGameModeBase.cpp
-- MyBTService_PlayerLocationIfSeen.h
-- MyBTService_PlayerLocationIfSeen.cpp
-- KillThemAllMode.h
-- KillThemAllModecpp
-- ShooterPlayerController.h
-- ShooterPlayerController.cpp
-- SimpleShooterGame.Build.cs
-- Docs Folder
-
+# All The Files You Need
 All the files that I downloaded and that are created at run time are included in this link in my OneDrive:
 
 Here is a link to the whole file to my game in order to allow it to be made on another device:

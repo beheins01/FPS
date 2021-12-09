@@ -1,6 +1,6 @@
 # Simple Shooter Game
 
-This project was completing during my programming 2 class (COP 3003). My project is a third person shooter that takes place in a futuristic time. I made this independently with help from an online course that I was taking on UDEMY.com (https://www.udemy.com/course/unrealcourse/). I made this project during the first semester of my junior year. I would still consider myself a beginner with unread engine and have lots of room to improve upon my skills. I made this project because I have a love for videogames and I have been interested in developing one myself for some time and I thought why not do it now that I have a school project that would allow me to. I found this project to be a fun experience and quite possibly one I expand upon in the future. I made this project at home where I could use my stronger PC rather than my laptop. 
+This project was completing during my programming 2 class (COP 3003). My project is a third person shooter that takes place in a futuristic time. I made this independently with help from an online course that I was taking on UDEMY.com [Udemy Course](https://www.udemy.com/course/unrealcourse/). I made this project during the first semester of my junior year. I would still consider myself a beginner with unread engine and have lots of room to improve upon my skills. I made this project because I have a love for videogames and I have been interested in developing one myself for some time and I thought why not do it now that I have a school project that would allow me to. I found this project to be a fun experience and quite possibly one I expand upon in the future. I made this project at home where I could use my stronger PC rather than my laptop. 
 
 
 # Demonstration
@@ -72,7 +72,7 @@ https://youtu.be/TKqd6gBG37M
 
 # Acknowledgments
 
-- https://www.udemy.com/course/unrealcourse/
+[Udemy Course](https://www.udemy.com/course/unrealcourse/)
 
 # All The Files You Need
 All the files that I downloaded and that are created at run time are included in this link in my OneDrive:

@@ -107,10 +107,6 @@ THE FILES I CREATED ARE:
 - SimpleShooterGame.Build.cs
 - Docs Folder
 
-
-https://user-images.githubusercontent.com/62121607/145310039-eafa5adc-15b5-407d-bb9e-2060b44a8848.mp4
-
-
 All the files that I downloaded and that are created at run time are included in this link in my OneDrive:
 
 Here is a link to the whole file to my game in order to allow it to be made on another device:

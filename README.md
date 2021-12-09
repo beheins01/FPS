@@ -11,7 +11,6 @@ https://user-images.githubusercontent.com/62121607/145310039-eafa5adc-15b5-407d-
 
 # Documentation
 [Doxygen Video](https://youtu.be/hbxLg11QoiA)
-//file:///C:/Users/ben2h/source/repos/Online%20Game%20Dev%20Class/Simple%20Shooter/SimpleShooterGame/Source/SimpleShooterGame/html/index.html
 
 # Diagrams
 
@@ -78,5 +77,5 @@ All the files that I downloaded and that are created at run time are included in
 
 Here is a link to the whole file to my game in order to allow it to be made on another device:
 
-[OneDrive File](https://eaglefgcu-my.sharepoint.com/:f:/g/personal/beheins0518_eagle_fgcu_edu/En7m4rmPHA5Bj2haMfRqWcEB_7zv17MfHy7aQqefZTiLAA?e=9iAlI3)
+[OneDrive File](https://1drv.ms/u/s!Ap8leesNEqlKgatyGr3LP0CWvcLTtg?e=BDxJBz)
 

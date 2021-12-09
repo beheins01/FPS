@@ -108,18 +108,8 @@ THE FILES I CREATED ARE:
 - Docs Folder
 
 
-githubusercontent.com/62121607/145310683-27c3f5de-6be0-43bf-b856-c369b010c02c.PNG)
-Doxygen Link:
-file:///C:/Users/ben2h/source/repos/Online%20Game%20Dev%20Class/Simple%20Shooter/SimpleShooterGame/Source/SimpleShooterGame/html/index.html
-
 https://user-images.githubusercontent.com/62121607/145310039-eafa5adc-15b5-407d-bb9e-2060b44a8848.mp4
 
-
-The  Answer to the question:
-
-
-Explain the relationship between object-oriented inheritance (code-sharing and overriding) and subtyping (the idea of a subtype being usable in a context that expects the supertype).
-Is in the file SimpleShooterGameGameBase.cpp
 
 All the files that I downloaded and that are created at run time are included in this link in my OneDrive:
 
